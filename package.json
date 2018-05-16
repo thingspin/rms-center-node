@@ -2,7 +2,13 @@
     "name": "center-node",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-iiot-opcua": "2.6.2",
+        "node-red-contrib-influxdb": "0.2.1",
+        "node-red-contrib-mssql": "0.0.7",
+        "node-red-contrib-sqldbs": "1.1.8",
+        "node-red-node-mysql": "0.0.16"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_center.json",
